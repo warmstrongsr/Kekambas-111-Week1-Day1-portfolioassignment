@@ -1,0 +1,92 @@
+#myHeader {
+  background-color: lightblue;
+  color: tomato;
+  padding: 25px;
+  text-align: center;
+}
+
+body{
+    flex: auto;
+    border-color: black;
+    background-color: white;
+    font-size: larger;
+    /* background-image: ; */
+}
+
+a:link {
+  color: rgb(36, 0, 128);
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: rgba(5, 168, 95, 0.43);
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
+/* buttons */
+/* a:link, a:visited {
+  background-color: #f44336;
+  color: white;
+  padding: 15px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block; */
+/* } */
+
+/* a:hover, a:active {
+  background-color: red; */
+/* } */
+
+.C8 {
+  color: rgb(70, 25, 206);
+}
+
+.city {
+color:rgb(255, 0, 0);
+font-family: blue
+}
+
+.main {
+  text-align: center;
+}
+
+aside {
+  width: 25%;
+  padding-left: 15px;
+  margin-left: 0px;
+  float: right;
+  font-style: italic;
+  background-color: lightgray;
+}
+
+.asides {
+  background-color: cyan;
+}
+
+#asideHeader {
+font-family: 'Times New Roman', Times, serif;
+font-size: 30px;
+color: blue;
+}
+
+th {
+  text-align: center;
+}
+
+table, td, th {
+  border-style: groove;
+  border-radius: 0cm;
+}
