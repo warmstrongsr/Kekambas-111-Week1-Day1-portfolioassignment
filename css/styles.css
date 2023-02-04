@@ -1,0 +1,50 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+		"Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+header {
+	background-color: lightslategray;
+	padding: 30px;
+	font-size: 40px;
+	text-align: center;
+	color: antiquewhite;
+	font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+footer {
+	background-color: lightslategray;
+	font-size: 25px;
+	text-align: center;
+	color: antiquewhite;
+	border-color: -moz-only-whitespace;
+	padding: 10px;
+}
+
+aside {
+	padding: 15px;
+	order: 1;
+	width: 15%;
+	align-self: auto;
+	padding-left: 15px;
+	margin-left: 0px;
+	float: right;
+	font-style: italic;
+	background-color: lightgray;
+}
+
+section {
+	background-color: lightslategray;
+	width: 78%;
+	text-align: center;
+	color: antiquewhite;
+	order: 0;
+	float: left;
+}
+article {
+	flex-wrap: wrap;
+}
