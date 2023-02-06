@@ -1,32 +1,35 @@
-* {
-	box-sizing: border-box;
-}
 
-body {
-	font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-		"Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+
+body, html {
+	height: 100%;
+	margin: 0px;
+		background-color: whitesmoke;
+		color: rgb(14, 30, 202);
+		font-size: larger;
+		;
 }
 
 header {
-	background-color: lightslategray;
+	/* background-color:black; */
 	padding: 30px;
-	font-size: 40px;
-	text-align: center;
+	font-size: 100px;
+	text-align: left;
 	color: antiquewhite;
 	font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
 footer {
-	background-color: lightslategray;
+	background-color: white;
 	font-size: 25px;
 	text-align: center;
 	color: antiquewhite;
 	border-color: -moz-only-whitespace;
-	padding: 10px;
+	padding: 100px;
+	height: 100px;
 }
 
 aside {
-	padding: 15px;
+	padding: 1%;
 	order: 1;
 	width: 15%;
 	align-self: auto;
@@ -35,6 +38,10 @@ aside {
 	float: right;
 	font-style: italic;
 	background-color: lightgray;
+    border: 3px solid blue;
+	color: blue;
+	
+ 
 }
 
 section {
@@ -45,6 +52,126 @@ section {
 	order: 0;
 	float: left;
 }
-article {
+/* article {
 	flex-wrap: wrap;
+} */
+/* .firstdiv{
+    float: left;
+}
+
+  div{
+         padding : 1%;
+         color: white;
+         background-color: 009900;
+         width: 83%;
+         border: solid black;
+         float: left;
+         } */
+
+#aHeader {
+    color: rgb(0, 4, 255);
+    text-align: center;
+}
+
+nav {
+	padding-left: 5px;
+	margin-left: 0px;
+	font-style: italic;
+	background-color: white;
+	align-items: left;
+	radius 
+}
+h1 {
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.fa {
+  /* padding-left: 15px;
+  padding-top: 15px;
+  padding: 0px;
+  font-size: 20px;
+  width: 20px;
+  margin: 0px 2px; */
+ 
+  
+}
+
+.fa, .fa-linkedin-square, .fa-4x {
+  /* background: black;
+  color: blue(35, 13, 202);
+  width: fit-content;
+  height:auto; */
+}
+
+.fa, .fa-twitter-square, .fa-4x {
+  background: white;
+  color: blue;
+}
+#SSG {
+	height: 155px;
+	width: 500px;
+	float:right;
+	border: 3px solid blue;
+	color: blue;
+	padding-left: 0%;
+	
+	
+	
+	
+	
+}
+
+.hero-image {
+	background-image:url("../Images/358396.jpg");
+	height: 20%;
+	max-width: 100%;
+	object-fit: contain;
+	background-size: 1300px 250px;
+
+}
+
+#toppara {
+	color: white;
+	padding-left: 30px;
+	padding-bottom: 20px;
+	font-size: x-large;
+}
+/* .hero-img {
+	background-image:url("../Images/u-s-army-staff-sergeant-rank-insignia-and-army-seal-over-american-flag-serge-averbukh.jpg");
+	height: 50%;
+	max-width: 50%;
+	/* object-fit: contain; */
+	background-size: 1200px 450px;
+	float: ;
+
+/* } */ 
+#middleul {
+	float: right;
+	font-size: smaller;
+}
+
+#mch2 {
+	text-align: left;
+	font-size: 33.56px;
+	font-weight: 900;
+}
+#tir {
+	text-align: left;
+	padding-left: 0px;
+	font-size: 25px;
+
+
+#thoughts {
+	font-size: 10px;
+}
+
+#amdown{
+	padding-left: 10%;
+	
+}
+#socialicons {
+	float: right;
+	padding-left: 5%;
+	padding-top: 0%;
 }

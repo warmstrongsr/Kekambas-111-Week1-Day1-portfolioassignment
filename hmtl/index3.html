@@ -10,6 +10,15 @@
 	</head>
 
 	<body>
+		<nav>
+			<ul>
+				<li>Will's Portfolio</li>
+				<li><a href="#">Link 1</a></li>
+				<li><a href="http://google.com">Link 2</li>
+				<li><a href="page3.html</li>
+				<li>Link 4</li>
+			</ul>
+		</nav>
 		<h1 id="myHeader">My Header</h1>
 
 		<p>
@@ -54,9 +63,8 @@
 				/>
 			</a>
 		</p>
-		
+
 		<p><a href="#C10">Jump to Chapter 10</a></p>
-		
 
 		<h2>Chapter 1</h2>
 		<p>
@@ -66,17 +74,21 @@
 			doloremque optio ex amet totam laudantium, nesciunt dolore tempore
 			repudiandae deleniti! quod ipsam adipisci cum veniam, voluptates
 			repellendus? Omnis quia laudantium, magnam recusandae ducimus hic. Dolor,
-			quaerat! Qui, eius! Lorem ipsum, dolor sit amet consectetur adipisicing
-			elit. Reiciendis dolorem consequatur necessitatibus veniam deleniti
-			tempore eaque commodi, illo ea perspiciatis modi sed mollitia possimus
-			molestias ipsam obcaecati, voluptatibus voluptates itaque. Lorem ipsum,
-			dolor sit amet consectetur adipisicing elit. Provident placeat, reiciendis
-			velit dolore assumenda consequuntur perferendis distinctio deserunt
-			similique suscipit quaerat rem, quibusdam corporis error dignissimos,
-			reprehenderit est illum temporibus.
+			quaerat! Qui, eius! Lorem ipsum, dolor sit amet c
 		</p>
 
-	
+		<form action="/action_page.php">
+			<input list="browsers" name="browser" />
+			<datalist id="browsers">
+				<option value="Internet Explorer"></option>
+				<option value="Firefox"></option>
+				<option value="Chrome"></option>
+				<option value="Opera"></option>
+				<option value="Safari"></option>
+			</datalist>
+
+			<input type="submit" value="Submit" />
+		</form>
 
 		<h2 id="C4">Chapter 4</h2>
 		<p>This chapter explains ba bla bla</p>
@@ -87,7 +99,10 @@
 			sint mollitia Lorem, ipsum dolor sit amet consectetur adipisicing elit.
 			Totam saepe voluptatum sapiente. Libero iure earum, in cum voluptates quam
 			doloremque optio ex amet totam
-			<span class="c5span" id= spanforC5 style="color: rgb(12, 16, 227); font-weight: bolder"
+			<span
+				class="c5span"
+				id="spanforC5"
+				style="color: rgb(12, 16, 227); font-weight: bolder"
 				>, nesciunt dolore tempore repudiandae deleniti! quod ipsam adipisci cum
 				veniam,</span
 			>
@@ -103,18 +118,19 @@
 			Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum cumque
 			sint mollitia Lorem, ipsum dolor sit amet consectetur adipisicing elit.
 			Totam saepe voluptatum sapiente. Libero iure earum, in cum voluptates quam
-			doloremque optio ex amet totam Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum cumque
-			sint mollitia Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-			Totam saepe voluptatum sapiente. Libero iure earum, in cum voluptates quam
-			doloremque optio ex amet totamLorem ipsum dolor sit amet consectetur adipisicing elit. Laborum cumque
-			sint mollitia Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-			Totam saepe voluptatum sapiente. Libero iure earum, in cum voluptates quam
-			doloremque optio ex amet totamLorem ipsum dolor sit amet consectetur adipisicing elit. Laborum cumque
-			sint mollitia Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-			Totam saepe voluptatum sapiente. Libero iure earum, in cum voluptates quam
-			doloremque optio ex amet totamLorem ipsum dolor sit amet consectetur adipisicing elit. Laborum cumque
-			sint mollitia Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-			
+			doloremque optio ex amet totam Lorem ipsum dolor sit amet consectetur
+			adipisicing elit. Laborum cumque sint mollitia Lorem, ipsum dolor sit amet
+			consectetur adipisicing elit. Totam saepe voluptatum sapiente. Libero iure
+			earum, in cum voluptates quam doloremque optio ex amet totamLorem ipsum
+			dolor sit amet consectetur adipisicing elit. Laborum cumque sint mollitia
+			Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam saepe
+			voluptatum sapiente. Libero iure earum, in cum voluptates quam doloremque
+			optio ex amet totamLorem ipsum dolor sit amet consectetur adipisicing
+			elit. Laborum cumque sint mollitia Lorem, ipsum dolor sit amet consectetur
+			adipisicing elit. Totam saepe voluptatum sapiente. Libero iure earum, in
+			cum voluptates quam doloremque optio ex amet totamLorem ipsum dolor sit
+			amet consectetur adipisicing elit. Laborum cumque sint mollitia Lorem,
+			ipsum dolor sit amet consectetur adipisicing elit.
 		</aside>
 		<div style="background-color: black; color: white; padding: 20px">
 			<h2>Chapter 6</h2>
@@ -132,7 +148,7 @@
 
 		<h2 class="city main" id="C10">Chapter 10</h2>
 		<p>This chapter explains ba bla bla</p>
-	
+
 		<a href="#top"></a>
 
 		<img
@@ -170,23 +186,30 @@
 		</ol>
 		<h2>TH elements define table headers</h2>
 
-<table style="width:75%">
-  <tr>
-    <th>Person 1</th>
-    <th>Person 2</th>
-    <th>Person 3</th>
-  </tr>
-  <tr>
-    <td>Emil</td>
-    <td>Tobias</td>
-    <td>Linus</td>
-  </tr>
-  <tr>
-    <td>16</td>
-    <td>14</td>
-    <td>10</td>
-  </tr>
-</table>
-<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+		<table style="width: 75%">
+			<tr>
+				<th>Person 1</th>
+				<th>Person 2</th>
+				<th>Person 3</th>
+			</tr>
+			<tr>
+				<td>Emil</td>
+				<td>Tobias</td>
+				<td>Linus</td>
+			</tr>
+			<tr>
+				<td>16</td>
+				<td>14</td>
+				<td>10</td>
+			</tr>
+		</table>
+		<label for="firstname">first</label>
+		<label for="fname">First name:</label><br />
+		<input type="text" size="25" /><br />
+
+		<label for="lname">Last name:</label>
+		<br />
+		<input type="text" size="25" />
+		<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
 	</body>
 </html>
