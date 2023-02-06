@@ -1,0 +1,171 @@
+body,
+html {
+	height: 100%;
+	margin: 0px;
+	background-color:black;
+	opacity: .9;
+	color: white ;
+	font-size: larger;
+	background-image: url("../Images/IMG-20120107-00120.jpg")
+	
+	
+	
+}
+form {
+	max-width: 300px;
+	
+	
+	
+}
+#para1 {
+	text-align: left;
+	max-width: 1050px;
+	border-left-style: dashed;
+	border-left-color: blue;
+	border-radius: 8px;
+}
+header {
+	/* background-color:black; */
+	padding: 30px;
+	font-size: 100px;
+	text-align: left;
+	color: antiquewhite;
+	font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+	border: 
+}
+
+footer {
+	opacity: .7;
+	font-size: 55px;
+	text-align: center;
+	padding: 100px;
+	height: 200px;
+	max-width: 100%;
+	background-image: url("../Images/u-s-army-staff-sergeant-rank-insignia-and-army-seal-over-american-flag-serge-averbukh.jpg")
+	
+
+}
+
+aside {
+	max-height: 300px;
+	padding: 5px;
+	width: 20%;
+	align-self: auto;
+	float: right;
+	font-weight: bold;
+	font-size: larger;
+	border: dotted thick;
+	border-radius: 8px;
+	border-color: yellow blue darkred  hotpink
+	
+	}
+
+section {
+	background-color: lightslategray;
+	width: 78%;
+	text-align: center;
+	color: antiquewhite;
+	order: 0;
+	float: left;
+}
+
+
+
+#aHeader {
+	color: rgb(0, 4, 255);
+	text-align: center;
+}
+
+nav {
+	padding-left: 5px;
+	margin-left: 0px;
+	font-style: italic;
+	background-color: white;
+	align-items: left;
+}
+
+h1 {
+	font-size: 50px;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+
+.fa,
+.fa-2x {
+	color: blue;
+	
+
+}
+
+
+
+.hero-image {
+	background-image: url("../Images/358396.jpg");
+	height: 40%;
+	max-width: 100%;
+	object-fit: contain;
+	background-size: 1300px 250px;
+
+}
+
+#toppara {
+	color: white;
+	padding-left: 30px;
+	padding-bottom: 20px;
+	font-size: x-large;
+}
+
+/* .hero-img {
+	background-image:url("../Images/u-s-army-staff-sergeant-rank-insignia-and-army-seal-over-american-flag-serge-averbukh.jpg");
+	height: 50%;
+	max-width: 50%;
+	/* object-fit: contain; */
+
+
+
+/* } */
+ul.middle{
+	float: right;
+	font-size: small;
+	background-image: "../Images/3586331-middle.png";
+	
+}
+	
+
+#mch2 {
+	text-align: left;
+	font-size: 33.56px;
+	font-weight: 900;
+	border: 2px;
+	
+	
+}
+
+#tir {
+	text-align: left;
+	padding-left: 0px;
+	font-size: 25px;
+}
+
+#contact {
+	flex-direction: row;
+}
+
+#salute {
+	max-width: 80px;
+	max-height: 40px;
+	background-color:;
+	padding-top: 2%;
+}
+#callme {
+	max-width: 80px;
+	max-height: 60px;
+	padding-top: 0%;
+}
+#emailme {
+	max-width: 80px;
+	max-height: 40px;
+	padding-top: 6%;
+	padding-left: 10px;
+}
