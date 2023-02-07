@@ -40,8 +40,10 @@ footer {
 	text-align: center;
 	padding: 100px;
 	height: 200px;
-	max-width: 100%;
-	background-image: url("../Images/u-s-army-staff-sergeant-rank-insignia-and-army-seal-over-american-flag-serge-averbukh.jpg")
+	max-width: 200%;
+	background-image: url("../Images/u-s-army-staff-sergeant-rank-insignia-and-army-seal-over-american-flag-serge-averbukh.jpg");
+	background-size: 300px 250px;
+	letter-spacing: ;
 	
 
 }
@@ -56,7 +58,9 @@ aside {
 	font-size: larger;
 	border: dotted thick;
 	border-radius: 8px;
-	border-color: yellow blue darkred  hotpink
+	border-color: yellow blue darkred  hotpink;
+	
+	
 	
 	}
 
@@ -155,8 +159,6 @@ ul.middle{
 #salute {
 	max-width: 80px;
 	max-height: 40px;
-	background-color:;
-	padding-top: 2%;
 }
 #callme {
 	max-width: 80px;

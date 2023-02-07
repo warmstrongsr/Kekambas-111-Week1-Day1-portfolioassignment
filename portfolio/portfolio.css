@@ -6,23 +6,25 @@ html {
 	opacity: .9;
 	color: white ;
 	font-size: larger;
-	background-image: url("../Images/IMG-20120107-00120.jpg")
-	
-	
-	
+	background-image: url("../Images/IMG-20120107-00120.jpg");	
 }
 form {
 	max-width: 300px;
-	
-	
-	
+	}
+ul {
+	margin-left: ;
 }
 #para1 {
 	text-align: left;
+	text-indent: 30px;
 	max-width: 1050px;
 	border-left-style: dashed;
 	border-left-color: blue;
 	border-radius: 8px;
+	margin-left: 4px;
+	color: white;
+	text-shadow: 2px 2px 4px #000000;
+	padding-left: 4px;
 }
 header {
 	/* background-color:black; */
@@ -30,20 +32,14 @@ header {
 	font-size: 100px;
 	text-align: left;
 	color: antiquewhite;
-	font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-	border: 
+	font-family: "Franklin Gothic Medium", "Arial Narrow", "Arial, sans-serif";
+	margin-left: -0px;
+	opacity: .9;
 }
 
-footer {
-	opacity: .7;
-	font-size: 55px;
-	text-align: center;
-	padding: 100px;
-	height: 200px;
-	max-width: 100%;
-	background-image: url("../Images/u-s-army-staff-sergeant-rank-insignia-and-army-seal-over-american-flag-serge-averbukh.jpg")
-	
 
+#reason {
+	text-shadow: 2px 2px 4px #000000;
 }
 
 aside {
@@ -56,7 +52,11 @@ aside {
 	font-size: larger;
 	border: dotted thick;
 	border-radius: 8px;
-	border-color: yellow blue darkred  hotpink
+	border-color: yellow blue darkred  hotpink;
+	margin-top: 40px;
+	margin-right: 12px;
+	outline: white dotted 4px;
+	outline-offset: 3px;
 	
 	}
 
@@ -87,6 +87,8 @@ nav {
 h1 {
 	font-size: 50px;
 	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	margin-left: 0px;
+	font-variant: small-caps;
 }
 
 
@@ -111,33 +113,17 @@ h1 {
 
 #toppara {
 	color: white;
-	padding-left: 30px;
-	padding-bottom: 20px;
+	padding-left: 0px;
+	padding-bottom: 0px;
 	font-size: x-large;
 }
-
-/* .hero-img {
-	background-image:url("../Images/u-s-army-staff-sergeant-rank-insignia-and-army-seal-over-american-flag-serge-averbukh.jpg");
-	height: 50%;
-	max-width: 50%;
-	/* object-fit: contain; */
-
-
-
-/* } */
-ul.middle{
-	float: right;
-	font-size: small;
-	background-image: "../Images/3586331-middle.png";
-	
-}
-	
 
 #mch2 {
 	text-align: left;
 	font-size: 33.56px;
 	font-weight: 900;
 	border: 2px;
+	margin-left: px;
 	
 	
 }
@@ -149,7 +135,7 @@ ul.middle{
 }
 
 #contact {
-	flex-direction: row;
+	font-size: 23.04px;
 }
 
 #salute {
@@ -169,3 +155,58 @@ ul.middle{
 	padding-top: 6%;
 	padding-left: 10px;
 }
+h2 {
+	margin-left: 4px;
+}
+#socials {
+	float: left;
+}
+footer {
+	opacity: .9;
+	font-size: 55px;
+	text-align: center;
+	padding: 100px;
+	height: 200px;
+	max-width: 100%;
+	background-image: url("../Images/u-s-army-staff-sergeant-rank-insignia-and-army-seal-over-american-flag-serge-averbukh.jpg");
+	margin-left: -10px;
+	letter-spacing: 20px;
+	font-variant: small-caps;
+	font-family: "Sofia", sans-serif;
+	font-size: 70px;
+	font-weight: bolder;
+}
+#slslink {
+	font-size: 15px;
+	float: right;
+	background-color: whitesmoke;
+	color: white;
+	padding: 4px 12px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	margin-bottom: 3px;
+	
+	
+}
+#toplink {
+	font-size: 15px;
+	float: right;
+	background-color: whitesmoke;
+	color: white;
+	padding: 4px 12px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	margin-right: 2%;
+	
+	
+	
+	
+}
+
+
+
+
+
+
