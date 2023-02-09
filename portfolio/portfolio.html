@@ -184,13 +184,13 @@
 						<span class="lnum" ;
 							style="color: white;text-shadow: 2px 2px blue;"><strong>Will
 								Armstrong Sr.</strong></span>
-						<ul>
-							
-							
+						<ul id="contact_list">
 							<li>945-555-5555</li>
-							<li>weaarmstrong@gmail.com</li>
-						
+							<li><a id="emaillinktop"
+									href="mailto:will.ea.armstrong@gmail.com">will.ea.armstrong@gmail.com</a>
+							</li>
 						</ul>
+
 					</div>
 				</article>
 
@@ -211,26 +211,28 @@
 							<i class="fa fa-github-square fa-4x"></i></a>
 					</div>
 				</article>
+				<div>
 				<article class="side-articles">
-					<h2 style="color: white;text-shadow: 2px 2px blue;">Contact
-						Me</h2>
-					<form>
+					<h2 style="color: white;text-shadow: 2px 2px blue;">Send me an email</h2>
+					<form action="mailto:will.ea.armstrong@gmail.com"
+						method="get">
 
-						<label for="lname"><img id="callme"
-								src="../Images/iphone-cell-phone-clipart-003356-glossy-black-icon-media-ipod1-442176781"
-								alt=""></label><br>
-						<input type="text" id="lname" name="lname"
-							value="555-55-5555"><br>
-						<label for="lname"><img id="emailme"
-								src="../Images/64936-text-messaging-email-emoji-png-image-high-quality-3783024701"
-								alt=""></label><br>
-						<input type="text" id="lname" name="lname"
-							value="willarmstrong@gmail.com">
+						<label for="name">Name:
+
+							<input type="text" id="name" name="name">
+						</label>
+						<br>
+
+						<label for="Email">Email:</label>
+						<input type="text" id="email" name="email">
+						<input type="submit" name="submit" value="Send">
+						
 					</form>
 				</article>
 			</div>
-		</div>
+		<div>
 		<footer>Thank you for your time.</footer>
+	</div>
 	</main>
 	</div>
 </body>

@@ -103,7 +103,7 @@ nav li {
 
 #hobby {
 	border: 3px solid white;
-	text-align: ;
+	
 }
 
 .hero-image {
@@ -111,8 +111,9 @@ nav li {
 	height: 40%;
 	background-repeat: no-repeat;
 	background-size: cover;
-	background-position: center;
+	/* background-position: center; */
 	position: relative;
+	background-position: 50% 55%;
 }
 
 .hero-text {
@@ -164,10 +165,10 @@ nav li {
 	text-align: center;
 }
 
-.side-articles ul {
-	list-style-type: none;
+/* .side-articles ul { */
+	/* list-style-type: none; */
 	padding: left 0px;
-	padding-right: 5px;
+	padding-right: 0px;
 
 }
 
@@ -193,6 +194,10 @@ nav li {
 
 }
 
+#emaillinktop {
+	margin-right: 20px;
+}
+
 
 #callme {
 	max-width: 1000px;
@@ -210,13 +215,11 @@ nav li {
 .side-articles {
 	background-color: rgb(120, 117, 117);
 	text-align: center;
-	margin-bottom: 5%;
-	margin-right: 5%;
 	font-size: large;
 	align-items: center;
 	background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(239, 230, 230, 0.791)), url(../images/FunctionFame-3368954413);
 	background-repeat: no-repeat;
-	background-size: cover;
+	/* background-size: cover; */
 	background-position: center;
 	
 	/* position: relative; */
@@ -252,13 +255,11 @@ nav li {
 	float: right;
 	width: 500px;
 	padding-left: 10px;
-	background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(239, 230, 230, 0.791)), url(../images/joss-pool-cue-jos16-46__73215.gif);
+	background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(239, 230, 230, 0.317)), url(../images/2gSayOJ-231777572);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
 	position: relative;
-
-
 
 }
 
@@ -306,6 +307,10 @@ footer {
 	margin-bottom: 50px;
 	color: white;
 	font-size: 20px;
+}
+
+#contact_list{
+	list-style-type: none;
 }
 
 @media screen and (max-width: 800px) {
