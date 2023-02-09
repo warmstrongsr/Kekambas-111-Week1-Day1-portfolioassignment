@@ -73,3 +73,7 @@ is_consecutive(b_list)
 # min_max_list = range(min(sorted_list), max(sorted_list))
 # print(list(min_max_list))
 list= [1,2,3,4,5]
+
+
+   
+   

@@ -1,0 +1,221 @@
+body,
+html {
+    height: 100%;
+    margin: 0px;
+    background-color: black;
+    opacity: .9;
+    color: white;
+    font-size: larger;
+    background-image: url("../Images/IMG-20120107-00120.jpg");
+}
+
+form {
+    max-width: 300px;
+}
+
+ul {
+    opacity: .9;
+}
+
+#para1 {
+    text-align: left;
+    text-indent: 30px;
+    max-width: 1000px;
+    border-radius: 8px;
+    margin-left: 4px;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+    padding-left: 4px;
+}
+
+header {
+    /* background-color:black; */
+    padding: 30px;
+    font-size: 100px;
+    text-align: left;
+    color: antiquewhite;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", "Arial, sans-serif";
+    margin-left: -0px;
+    opacity: .9;
+}
+
+
+#reason {
+    text-shadow: 2px 2px 4px #000000;
+}
+
+aside {
+    max-height: 300px;
+    padding: 5px;
+    width: 20%;
+    float: right;
+    font-weight: bold;
+    font-size: larger;
+    border: dotted thick;
+    border-radius: 8px;
+    border-color: yellow blue darkred hotpink;
+    margin-top: 40px;
+    margin-right: 12px;
+    outline: white dotted 4px;
+    outline-offset: 3px;
+}
+
+#aHeader {
+    color: rgb(0, 4, 255);
+    text-align: center;
+}
+
+nav {
+    padding-left: 5px;
+    margin-left: 0px;
+    font-style: italic;
+    background-color: white;
+    align-items: left;
+}
+
+h1 {
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 0px;
+    font-variant: small-caps;
+}
+
+
+
+.fa,
+.fa-2x {
+    color: blue;
+
+
+}
+
+
+
+.hero-image {
+    background-image: url("../Images/358396.jpg");
+    height: 40%;
+    max-width: 100%;
+    object-fit: contain;
+    background-size: 1300px 250px;
+}
+
+#toppara {
+    color: white;
+    padding-left: 0px;
+    padding-bottom: 0px;
+    font-size: x-large;
+}
+
+#mch2 {
+    text-align: left;
+    font-size: 33.56px;
+    font-weight: 900;
+    border: 2px;
+    margin-left: px;
+
+
+}
+
+#tir {
+    text-align: left;
+    padding-left: 0px;
+    font-size: 25px;
+}
+
+#contact {
+    font-size: 23.04px;
+}
+
+#salute {
+    max-width: 80px;
+    max-height: 40px;
+    background-color: ;
+    padding-top: 2%;
+}
+
+#callme {
+    max-width: 80px;
+    max-height: 60px;
+    padding-top: 0%;
+}
+
+#emailme {
+    max-width: 80px;
+    max-height: 40px;
+    padding-top: 6%;
+    padding-left: 10px;
+}
+
+h2 {
+    margin-left: 4px;
+}
+
+#socials {
+    float: left;
+}
+
+footer {
+    opacity: .9;
+    font-size: 55px;
+    text-align: center;
+    padding: 100px;
+    height: 200px;
+    max-width: 100%;
+    background-image: url("../Images/u-s-army-staff-sergeant-rank-insignia-and-army-seal-over-american-flag-serge-averbukh.jpg");
+    margin-left: -10px;
+    letter-spacing: 20px;
+    font-variant: small-caps;
+    font-family: "Sofia", sans-serif;
+    font-size: 70px;
+    font-weight: bolder;
+}
+
+#slslink {
+    font-size: 15px;
+    float: right;
+    background-color: whitesmoke;
+    color: white;
+    padding: 4px 12px;
+    text-align: center;
+    /* text-decoration: none; */
+    display: inline-block;
+    margin-bottom: 3px;
+    top: 0;
+    position: relative;
+}
+
+#toplink {
+    font-size: 15px;
+    float: right;
+    background-color: whitesmoke;
+    /* color: white; */
+    padding: 4px 12px;
+    text-align: center;
+    /* text-decoration: none; */
+    /* display: inline-block; */
+    margin-right: 2%;
+}
+
+small {
+    font-size: medium;
+}
+
+#para1::first-letter {
+    color: #ff0000;
+    font-size: xx-large;
+}
+
+/* #mch2::before {
+	display: block;
+	height: 12px;
+	width: 1px;
+	content: url(../Images/tagssg.jpg);
+	transform: scale(.8);
+	opacity: .3;
+	
+} */
+#profileimage {
+    width: 100px;
+    border-radius: 50%;
+    border: 5px solid whitesmoke
+}
