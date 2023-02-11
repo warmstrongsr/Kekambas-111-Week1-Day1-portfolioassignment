@@ -57,15 +57,17 @@ def is_consecutive(a_list):
    min_max_list = list(range(min(a_list), max(a_list)+1))
    print(list(min_max_list))   
    if sorted_list == min_max_list:
-      print("consecutive")
+      return True
+      # print("consecutive")
    else:
-      print("non-consecutive")
+      return False
+      # print("non-consecutive")
 
 a_list = [5,6,8,4,9,7]
 b_list = [4,3,6]
 
-is_consecutive(a_list)
-is_consecutive(b_list)
+print(is_consecutive(a_list))
+print(is_consecutive(b_list))
 
 # print(range(min(b_list)))
 # print(range(max(b_list)))
